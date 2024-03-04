@@ -134,7 +134,6 @@ def main():
     mlModel.drop_extreme_vals()
     mlModel.dataFrame = MLModel.prepare_data(mlModel.dataFrame, mlModel, True)
     mlModel.fit_transform_xgboost()
-    
 
 
 if __name__ == '__main__':
